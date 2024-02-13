@@ -1,0 +1,11 @@
+<div class="bingo-card">
+    <div class="row" *ngFor="let row of bingoRows">
+      <div class="square" *ngFor="let square of row" (click)="toggleMark(square)" [ngClass]="{'marked': square.marked, 'free-space': square.value === 'Skaven Nerf'}">
+        <span>{{ square.value }}</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bingo-counter">
+    Number of Bingos: {{ bingoCounter }}
+  </div>

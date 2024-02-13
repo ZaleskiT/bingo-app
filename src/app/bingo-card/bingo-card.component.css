@@ -1,0 +1,30 @@
+.bingo-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .square {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #20e030;
+  }
+  
+  .marked {
+    background-color: #20e030; /* You can adjust the color for marked squares */
+  }
+  
+  .free-space {
+    font-weight: bold;
+  }
