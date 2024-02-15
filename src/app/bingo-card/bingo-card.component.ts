@@ -78,6 +78,9 @@ export class BingoCardComponent {
   'DoK significant points decreases',
   'You got what you wanted',
   'You did not get what you wanted',
+  'Strike three within 2 hours of release',
+  'Zombies to 120',
+  'Euphoric killers in both phases'
 ]; 
 
   constructor() {
